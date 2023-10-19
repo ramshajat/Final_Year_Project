@@ -3,7 +3,7 @@ import threading
 import schedule
 from flask import Flask, render_template, Response, request, session, redirect, url_for,flash
 import datetime, time
-import os, sys
+import os
 import face_recognition
 import tensorflow as tf
 import numpy as np
